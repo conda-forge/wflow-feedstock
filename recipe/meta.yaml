@@ -1,13 +1,13 @@
 {% set name = "wflow" %}
-{% set version = "2020.1" %}
+{% set version = "2020.1.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/openstreams/wflow/releases/download/{{ version }}/wflow-{{ version }}.tar.gz
-  sha256: 170442f72e4d932d765c802f0db0803f269ecba5f206add1463e86f769cd678e
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: f6f935c354cd240839be21ef3e7a20668ec9d87d36c07fd186d690e720ca1c3c
 
 build:
   noarch: python
