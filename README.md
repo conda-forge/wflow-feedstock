@@ -5,9 +5,13 @@ Home: https://github.com/openstreams/wflow
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wflow-feedstock/blob/master/LICENSE.txt)
 
 Summary: wflow hydrological modeling framework
+
+Development: https://github.com/openstreams/wflow
+
+Documentation: https://wflow.readthedocs.io/
 
 wflow consists of a set of Python programs that can be run on the command line
 and perform hydrological simulations. The models are based on the PCRaster
