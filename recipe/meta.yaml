@@ -1,5 +1,5 @@
 {% set name = "wflow" %}
-{% set version = "2020.1.1" %}
+{% set version = "2020.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f6f935c354cd240839be21ef3e7a20668ec9d87d36c07fd186d690e720ca1c3c
+  sha256: 325d5efc064d3fe005a1de8a70eba38e4cfafb8cb8862f066d842e55425abb6b
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -40,7 +40,7 @@ about:
   home: https://github.com/openstreams/wflow
   license: GPL-3.0-or-later
   license_file: LICENSE
-  summary: 'wflow hydrological modeling framework'
+  summary: wflow hydrological modeling framework
 
   description: |
     wflow consists of a set of Python programs that can be run on the command line
