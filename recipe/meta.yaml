@@ -55,5 +55,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - deltares-service-account
     - verseve
     - visr
